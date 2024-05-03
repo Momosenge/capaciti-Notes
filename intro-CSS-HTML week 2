@@ -1,0 +1,20 @@
+Graphics and Images
+HTML Tags: HTML provides specific tags for incorporating graphics and images into web pages. The <img> tag is used to embed images directly into the page.
+Attributes: The <img> tag requires the src attribute, which specifies the URL or file path of the image. Additionally, the alt attribute provides alternative text for screen readers and in cases where the image cannot be displayed.
+File Formats: HTML supports various image file formats, including JPEG, PNG, GIF, and SVG. Each format has its own advantages and use cases.
+Responsive Images: HTML offers techniques for creating responsive images that adapt to different screen sizes and resolutions. The srcset attribute allows specifying multiple image sources for different viewport sizes.
+Image Maps: HTML supports image maps, which are clickable areas on an image that link to different destinations. This is achieved using the <map> and <area> tags.
+CSS Styling: Images can be styled using CSS to adjust their size, position, borders, and other visual properties.
+Optimization: It's important to optimize images for the web to reduce file size and improve page loading times. This can be done using image editing software or online optimization tools.
+Accessibility: Providing descriptive alternative text (alt attribute) for images is essential for accessibility, ensuring that visually impaired users can understand the content of the images.
+Overall, graphics and images play a crucial role in enhancing the visual appeal and usability of web pages, and HTML provides the necessary tools and techniques for incorporating them effectively. 
+
+Working Media
+Media Tags: HTML provides specific tags for embedding media, such as <audio> for audio files and <video> for video files.
+Media tags require attributes to specify the source (src) of the media file and may include additional attributes for controlling playback, such as controls to display a media player interface.
+HTML supports various media file formats, including MP3, WAV, OGG for audio, and MP4, WebM, and OGV for video. Different browsers may support different formats, so it's essential to provide fallback options using multiple source (<source>) elements.
+Media files can be embedded directly into HTML documents using the <audio> and <video> tags, or they can be linked externally using hyperlinks.
+Similar to images, media elements can be styled using CSS to create responsive designs that adapt to different screen sizes and resolutions.
+Providing alternative text (alt) for media elements, especially for audio files, is important for accessibility, ensuring that users with disabilities can access the content.
+
+Content Identification

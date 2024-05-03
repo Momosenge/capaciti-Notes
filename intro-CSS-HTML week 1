@@ -1,0 +1,31 @@
+html is language used to structure web pages in web development it uses tag that closed with greater smal signs wich form elements.
+elements are identified using tags, the openning tags and the closing tag e.g <p> body </p>. the  closing tag identified by foward slash inside te greater and smaller signs.
+we also nested elements within the tags wich mean we have elements inside elements they for the structure of the html
+tags also form or indicate paragraphs. html tags are not case sensitive.
+html headlines we 6 different headlines which are <h1> to <h6> they are used to head our web pages in different sizs h1 is the and h6 is the smallest.
+we also have elemnts to style our texts, we <em> tags to emphasise a word and '<i> to put words italic th we have the <strong>  wich is used the importance or urgency and it also add a meaning to it it stans out. we also have the <b> that is used to bold the text
+
+
+*HTML Capabilities 
+HTML empowers us to create dynamic and interactive web pages.
+We can add text, images, videos, forms, and more to engage users.
+
+*Navigation and Linking Basics
+Navigation elements like menus, buttons, and links guide users through websites.
+Links connect different parts of a website, leading users to other pages or sections.
+
+*Troubleshooting and Debugging 
+When coding, things don't always work perfectly. We need to troubleshoot using tools like browser developer tools.
+Issues like broken links and missing elements are common but fixable.
+We ensure proper file paths and tag usage to resolve them.
+
+*Attributes: The Building Blocks of HTML
+Attributes add extra information to HTML tags, like specifying link destinations or image descriptions.
+ARIA roles help people with disabilities navigate websites better by adding semantic meaning to elements.
+We add ARIA roles to elements to improve accessibility, making it easier for assistive technologies to understand our content.
+
+*Taming Unusual Characters and Formatting Challenges 
+We encounter challenges like special characters or formatting issues that disrupt our web pages' appearance.
+Special characters can confuse browsers, but HTML entities help display them correctly.
+
+

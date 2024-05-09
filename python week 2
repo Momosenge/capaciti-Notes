@@ -48,3 +48,29 @@ Working with Custom Exceptions:
 Definition: Custom exceptions are user-defined exception classes that inherit from Python's built-in exception classes or from other custom exception classes.
 Purpose: Custom exceptions allow you to create specific error types for your application, providing more context and clarity when handling errors.
 Usage: Custom exceptions are raised and caught in the same way as built-in exceptions, using raise and except statements.
+
+Fundamentals of threads and processes
+
+Threads:
+Definition: A thread is the smallest unit of execution within a process. Multiple threads can exist within the same process and share the same memory space.
+Concurrency: Threads enable concurrent execution of tasks, where multiple threads execute independently and potentially simultaneously.
+Lightweight: Threads are lightweight compared to processes, as they share resources such as memory and file handles with other threads in the same process.
+Shared State: Threads within the same process share the same memory space, allowing them to access and modify shared data.
+Communication: Threads can communicate with each other through shared variables, message passing, or synchronization primitives like locks and semaphores.
+Global Interpreter Lock (GIL): In Python, the Global Interpreter Lock (GIL) restricts the execution of Python bytecode to a single thread at a time, limiting the effectiveness of multi-threading for CPU-bound tasks.
+
+
+Processes:
+Definition: A process is an instance of a running program. Each process has its own memory space, resources, and state.
+Isolation: Processes are isolated from each other, meaning they do not share memory by default. Inter-process communication (IPC) mechanisms are used for communication between processes.
+Resource Overhead: Processes have higher resource overhead compared to threads, as they require separate memory spaces and system resources.
+Concurrency and Parallelism: Processes enable both concurrency (multiple tasks progressing simultaneously) and parallelism (multiple tasks executing simultaneously on multi-core CPUs).
+Robustness: Processes are more robust than threads because a crash in one process does not affect others. However, coordinating multiple processes can be more complex.
+Spawned by the OS: Processes are managed by the operating system, which creates and schedules them for execution.
+
+Key Differences:
+Memory: Threads within the same process share memory, while processes have separate memory spaces.
+Communication: Threads communicate through shared memory, while processes use IPC mechanisms.
+Resource Overhead: Threads have lower resource overhead than processes, as they share resources.
+Robustness: Processes are more robust than threads due to isolation.
+Parallelism: Processes enable true parallelism, while the effectiveness of multi-threading is limited by the GIL in Python.

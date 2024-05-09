@@ -1,0 +1,50 @@
+Anatomy of a Function in Python:
+Definition: Functions in Python are defined using the def keyword followed by the function name and parameters.
+Arguments and Parameters: Functions can take zero or more parameters. Arguments are the actual values passed to a function when it's called, while parameters are the placeholders for those values.
+Return Values: Functions can optionally return a value using the return statement.
+Docstrings: It's good practice to include a docstring (a string literal) at the beginning of a function to describe its purpose and usage.
+Scope: Functions have their own scope, meaning variables defined within a function are only accessible within that function (unless explicitly declared as global).
+Function Calls: Functions are called using their name followed by parentheses containing the arguments.
+
+Variables and Scope:
+Local Variables: Variables defined within a function have local scope and are accessible only within that function.
+Global Variables: Variables defined outside of any function have global scope and are accessible from anywhere in the module.
+Scope Resolution: When a variable is referenced, Python searches for it first in the local scope, then in enclosing (non-local) scopes, and finally in the global scope.
+Global Keyword: The global keyword allows you to modify global variables from within a function's scope.
+
+Functions as Variables:
+In Python, functions are first-class objects, meaning they can be assigned to variables, passed as arguments to other functions, and returned from functions.
+This feature allows for powerful functional programming paradigms, such as higher-order functions and function composition.
+  
+Anatomy of a Class:
+Definition: Classes in Python are defined using the class keyword followed by the class name and a colon.
+Attributes: Classes can have attributes, which are variables associated with the class or its instances.
+Methods: Classes can have methods, which are functions associated with the class or its instances.
+Constructor: The __init__ method is a special method used for initializing new instances of a class.
+Instance Variables: Instance variables are variables that are unique to each instance of a class.
+Class Variables: Class variables are variables shared among all instances of a class.
+                                                         
+Instance, Class, and Static Methods:
+Instance Methods: Instance methods operate on an instance of the class and have access to instance variables.
+Class Methods: Class methods operate on the class itself and have access to class variables.
+Static Methods: Static methods are independent of the class and do not have access to instance or class variables.
+
+Inheritance:
+Definition: Inheritance allows a class to inherit attributes and methods from another class.
+Base Class (Superclass): The class being inherited from.
+Derived Class (Subclass): The class that inherits from another class.
+Method Overriding: Subclasses can override methods defined in the superclass.
+
+Handling Errors and Exceptions:
+Try-Except Blocks: Exceptions are handled using try and except blocks. Code inside the try block is executed, and if an exception occurs, the code inside the corresponding except block is executed.
+Exception Types: Different types of exceptions can be caught by specifying the exception type after the except keyword.
+Finally Block: The finally block is executed whether an exception occurs or not and is often used for cleanup actions.
+Raising Exceptions: Exceptions can be raised manually using the raise statement.
+
+Managing and Handling Exceptions:
+Exception Handling Strategies: Error handling strategies include logging errors, displaying user-friendly error messages, retrying failed operations, and gracefully handling failures.
+Logging: The logging module can be used to log error messages and other relevant information during exception handling.
+Working with Custom Exceptions:
+Definition: Custom exceptions are user-defined exception classes that inherit from Python's built-in exception classes or from other custom exception classes.
+Purpose: Custom exceptions allow you to create specific error types for your application, providing more context and clarity when handling errors.
+Usage: Custom exceptions are raised and caught in the same way as built-in exceptions, using raise and except statements.
